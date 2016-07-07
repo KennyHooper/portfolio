@@ -1,0 +1,33 @@
+body  {
+    background-image: url("http://a1star.com/images/anim-bstars.gif");
+    background-color: #cccccc;
+}
+
+.FontGrey {
+
+  color: grey;
+
+}
+
+.center {
+
+  text-align: center;
+}
+
+img{
+
+  width: 400px;
+  transition: 3s;
+}
+
+img:hover{
+
+  width: 300px;
+}
+
+
+
+  span:hover {
+    font-size: 60px;
+      background-color: yellow;
+  }
