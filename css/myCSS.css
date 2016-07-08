@@ -1,4 +1,4 @@
-body  {
+.starryBackground  {
     background-image: url("http://a1star.com/images/anim-bstars.gif");
     background-color: #cccccc;
 }
@@ -9,9 +9,51 @@ body  {
 
 }
 
+body{background-color: green;}
+
+#menu {
+    padding: 0;
+    text-align: center;
+}
+
+#menu li {
+    display: inline;
+
+}
+
+#menu li a {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 5px dotted red;
+    border-radius: 4px 4px 0 0;
+}
+
+#menu li a:hover {
+    background-color: orange;
+}
+
 .center {
 
   text-align: center;
+}
+
+.assignmentList{
+
+margin-left: 500px;
+ background-color: Red;
+  /*position: relative;*/
+  text-align: center;
+  width: 360px;
+}
+
+.assign{
+  margin: auto 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+
 }
 
 img{
