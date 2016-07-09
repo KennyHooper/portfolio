@@ -43,16 +43,18 @@ body{background-color: green;}
 
 margin-left: 500px;
  background-color: Red;
-  /*position: relative;*/
+  position: relative;
   text-align: center;
   width: 360px;
 }
 
 .assign{
-  margin: auto 0;
-  left: 0;
-  right: 0;
-  position: absolute;
+background-color: black;
+width: 20%;
+height: 100%;
+position: absolute;
+top: 0;
+left: 0;
 
 }
 

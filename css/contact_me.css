@@ -1,3 +1,15 @@
+@import 'https://fonts.googleapis.com/css?family=BioRhyme';
+
+
+body{
+  background-color: black;
+}
+
 * {
-color: indianred;
+color: blue;
+font-family: 'BioRhyme', serif;
+}
+
+.header{
+  text-align: center;
 }
