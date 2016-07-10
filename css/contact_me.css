@@ -13,3 +13,21 @@ font-family: 'BioRhyme', serif;
 .header{
   text-align: center;
 }
+
+#right_form
+{
+  background-color: grey;
+    /*width: 20%;*/
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 300px;
+
+}
+
+#button{
+  position: absolute;
+  top: 600px;
+  left: 300px;
+
+}
