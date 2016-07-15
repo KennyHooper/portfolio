@@ -1,0 +1,66 @@
+@import 'https://fonts.googleapis.com/css?family=BioRhyme';
+
+
+body{
+  background-color: black;
+}
+
+* {
+color: blue;
+font-family: 'BioRhyme', serif;
+}
+
+.header{
+  /*text-align: center;*/
+}
+
+#menu {
+    padding: 0;
+    text-align: center;
+}
+
+#menu li {
+    display: inline;
+
+}
+
+#menu li a {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 5px dotted blue;
+    border-radius: 4px 4px 0 0;
+    left: 100px;
+    z-index: 99;
+}
+
+#right_form
+{
+  background-color: grey;
+    width: 33%;
+    height: 100%;
+    position: absolute;
+    top: 50px;
+    left: 33%;
+    z-index: 1;
+
+}
+
+.farright
+{
+  background-color: lightblue;
+    width: 33%;
+    height: 100%;
+    position: absolute;
+    top: 50px;
+    left: 66%;
+
+}
+
+#button{
+  position: absolute;
+  top: 600px;
+  left: 15%;
+
+}
