@@ -1,0 +1,79 @@
+
+
+body{background-color: #365937;
+  font-family: 'BioRhyme', serif;
+  color: #C9E4CA;
+  font-size: 200%;}
+
+  a{color:#86BA87;}
+
+  a:hover{color: white;}
+
+  .div-style{
+    background-color: #5a5c51;
+  }
+
+  .ol-custom{
+    list-style-type: none;
+  }
+
+
+  .center {
+
+    text-align: center;
+  }
+
+
+  .fade
+  {
+    opacity:0.5;
+  }
+  .fade:hover
+  {
+    opacity:1;
+  }
+
+  .colorchange{
+    transition: background-color 3s;
+  }
+
+  .colorchange:hover
+  {
+    background-color: #3A633C;
+  }
+
+  .shrink{
+
+  }
+
+  .shrink:hover
+  {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+
+  .jumbotron-main{
+    background-image: url(..\img\projects.gif);
+    background-size: 500px;
+      background-repeat: no-repeat;
+    }
+
+  .row {
+    overflow: hidden;
+  }
+
+  [class*="col-"]{
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+  }
+
+  .circle{
+
+    transition: border-radius 1s;
+  }
+
+  .circle:hover
+  {
+    border-radius:50%;
+  }

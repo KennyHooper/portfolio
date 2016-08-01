@@ -1,0 +1,14 @@
+@import 'https://fonts.googleapis.com/css?family=Titillium+Web';
+
+body{
+  background-color: #696969;
+  font-family: 'Titillium Web', sans-serif;
+  }
+
+.mainDiv{
+  background-color: rgba(20, 20, 20, 0.9);
+
+}
+
+h2{color:silver;
+text-align: center;}
